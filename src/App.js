@@ -4,6 +4,11 @@ import NavBar from './components/NavBar.js';
 import ClassComponent from './components/ClassComponent/ClassComponent.js';
 // import FunctionalComponent from './components/FunctionalComponent/FunctionalComponent.jsx';
 import Boton from './components/Boton/Boton';
+import Boton2 from './components/Boton/Boton2';
+
+const handleClick2 = () =>{
+  alert('Me dieron Click de otra forma');
+}
 
 function App() {
   return (
@@ -19,6 +24,7 @@ function App() {
           booleano={true}
         /> */}
         <Boton />
+        <Boton2 funcion={handleClick2}/>
       </header>
     </div>
   );

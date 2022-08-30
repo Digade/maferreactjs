@@ -1,7 +1,10 @@
 import './style.css';
 
 const Boton = () => {
-  return <button className="boton-prueba">Boton</button>;
+    const handleClick = () =>{
+        alert('Me dieron Click');
+    }
+  return <button className="boton-prueba" onClick={handleClick}>Boton</button>;
   
 };
 
