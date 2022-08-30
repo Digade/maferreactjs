@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar.js';
 import ClassComponent from './components/ClassComponent/ClassComponent.js';
-import FunctionalComponent from './components/FunctionalComponent/FunctionalComponent.jsx';
+// import FunctionalComponent from './components/FunctionalComponent/FunctionalComponent.jsx';
+import Boton from './components/Boton/Boton';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           numero={3}
           booleano={true}
         /> */}
+        <Boton />
       </header>
     </div>
   );
