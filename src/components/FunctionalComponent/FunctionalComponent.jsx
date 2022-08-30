@@ -1,6 +1,10 @@
+import './styles.css'
+
 const FunctionalComponent = () =>{
     return (
-        <div>Hola soy componente de funcion</div>
+        <div className="test-css">
+            <h3>Hola soy componente de funcion</h3>
+        </div>
     );
 };
 
