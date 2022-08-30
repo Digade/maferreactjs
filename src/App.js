@@ -11,12 +11,12 @@ function App() {
       <header className="App-header">
         
         <img src={logo} className="App-logo" alt="logo" />
-       <ClassComponent titulo="Prop de componente de clase"/>
-       <FunctionalComponent 
+       <ClassComponent titulo="Prop de componente de clase" numero={5}/>
+       {/* <FunctionalComponent 
           titulo="Prop de comp de funcion"
           numero={3}
           booleano={true}
-        />
+        /> */}
       </header>
     </div>
   );
