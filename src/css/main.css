@@ -1,0 +1,266 @@
+* {
+    margin: 0px; }
+
+.navmain {
+    grid-template-areas: "logo menu social-media"
+     "slider slider slider"
+     "main main main"
+     "footer footer footer"; }
+
+body{
+    background-color: black!important;
+}
+
+.slidermain {
+    /* background-image: url(../img/banner.webp); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 95%;
+    position: relative;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    image-orientation: inherit;
+    }
+   
+.carousel-caption {
+    bottom: 30%!important;
+}
+
+.carousel-caption h2{
+    font-size: 1.25em !important;
+}
+
+.carousel-caption .btn{
+    margin-top: 30px;
+}
+
+
+.bg-dark {
+    --bs-bg-opacity: 0.5!important;
+}
+
+.rowreverse{
+    flex-direction: row-reverse;
+}
+
+.nav-link{
+    padding: 0px!important;
+}
+
+.bg-holder{
+    position:relative;
+    width:60vw;
+    min-height:60vh;
+    top:0;
+    left:0;
+    background-size:cover;
+    background-position:center;
+    overflow:hidden;
+    will-change:transform,opacity,filter;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    background-repeat:no-repeat;
+    z-index:0}
+    
+.bg-holder.bg-right{
+        left:auto;
+        right:0}
+        
+.bg-holder.overlay:before{
+    position:absolute;
+    content:"";
+    background:rgba(0,0,0,.25);
+    top:0;
+    bottom:0;
+    left:0;
+    right:0}
+
+    .bg-holder.overlay-0:before{
+        background:rgba(0,0,0,.7)}
+        
+.bg-holder.overlay-1:before{
+    background:rgba(0,0,0,.55)}
+    
+    .bg-holder.overlay-2:before{
+        background:rgba(0,0,0,.4)}
+        
+        .bg-holder .bg-video{
+            position:absolute;
+            display:block;
+            z-index:-1;
+            top:0;
+            left:0;
+            -o-object-fit:cover;
+            object-fit:cover;
+            height:100%;
+            min-width:100%}
+            
+            .bg-holder .bg-youtube{
+                position:absolute !important;
+                top:0;
+                left:0;
+                height:100%;
+                width:100%}
+                
+                .bg-fixed{background-attachment:fixed}.bg-glass{background-color:rgba(255,255,255,.9)}.bg-card{background-size:contain;background-position:right;border-top-right-radius:.375rem;border-bottom-right-radius:.375rem}
+
+
+h1 h2 h3 h4 h5 h6 p{
+    font-family: "Lato",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.nav-link{
+    color: rgb(102, 176, 236)!important;
+}
+.celeste .btn {
+    color: rgb(102, 176, 236)!important;
+}
+
+.nav-link:hover{
+    color:rgb(58, 87, 141)!important;
+}
+
+.footercontacto{
+    color: white;
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-image: url('../img/hardseriesAvania1KW.webp');
+    border-radius: 21px;
+    transform: rotate(30deg);
+    
+}
+
+.cont-div {
+        display: flex;
+        flex-direction: row;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        /* padding: 100px; */
+        background-color: black;
+        image-orientation: inherit; }
+.infoback-pag {
+            display: flex;
+            background-image: url('../img/hardseriesavania1kwfondo-verdegris.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+            height: 500px;
+            width: 500px;
+            margin: 0!important;
+            padding: 0!important;
+            flex-basis: 50%!important;
+         }
+
+.infofront-pag {
+            display: flex;
+            background-color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+            height: 500px;
+            width: 500px;
+            margin: 0!important;
+            padding: 0!important;
+            flex-basis: 50%!important;
+         }
+
+.slidermain h1{
+    font-size: 50px!important;
+}
+
+.slidermain h2{
+    font-size: 17px!important;
+}
+
+.slidermain h3{
+    font-size: 10px!important;
+}
+
+.centrado {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.cont-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 100vh;
+}
+
+/* .cont-grid div {
+    border: solid 2px red;
+} */
+
+.img-class{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.img-class img {
+    width: 800px;
+    padding: 50px;
+}
+
+.text-class {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding: 100px;
+    
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+@media (max-width: 700px) {
+    
+.text-class {
+    
+    padding: 50px;
+}
+
+.img-class img {
+    width: 300px;
+    padding: 25px;
+}
+
+}

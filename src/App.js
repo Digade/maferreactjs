@@ -1,5 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
+import '../src/css/5slider.css';
+import '../src/css/main.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar.js';
 import ClassComponent from './components/ClassComponent/ClassComponent.js';
 // import FunctionalComponent from './components/FunctionalComponent/FunctionalComponent.jsx';
@@ -64,25 +67,7 @@ function App() {
         <Counter onClick={stock} sumar={sumar} restar={restar} items={items}/>
         <button onClick={()=> setvalidacion(!validacion)}>VALIDACION</button>
         {/* <Counter /> */}
-{/*         
-        <img src={logo} className="App-logo" alt="logo" />
-       <ClassComponent titulo="Prop de componente de clase" numero={5}/>
-       {/* <FunctionalComponent 
-          titulo="Prop de comp de funcion"
-          numero={3}
-          booleano={true}
-        /> 
-        <Boton />
-        <Boton2 funcion={handleClick2}/>
-        
-        <Parent esUnComponente={Titulo}>
-          <div>
-              <h1>Hello World</h1>
-          </div>
-          <div>
-            <h2>Soy el hermano</h2>
-          </div>
-        </Parent> */}
+
       </header>
     </div>
   );
