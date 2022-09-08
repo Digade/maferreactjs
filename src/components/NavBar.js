@@ -2,8 +2,8 @@
 import { useEffect } from "react";
 import carro from "../img/carro-blanco.png"
 import logomafer from "../img/maferparaweb2.webp"
-import '../css/5slider.css';
-import '../css/main.css';
+// import '../css/5slider.css';
+// import '../css/main.css';
 
 
 const NavBar = (props) => {
@@ -43,7 +43,7 @@ const NavBar = (props) => {
                         paddingRight: "30px",
                       }}
                     />{" "}
-                    Carrito: {props.items}
+                    <p>Carrito: {props.items}</p>
                 </div>
             </div>
       
