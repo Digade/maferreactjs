@@ -1,6 +1,6 @@
 import Item from "../Item/Item";
 
-const ItemList = ({ lista }) => {
+const ItemDetail = ({ lista }) => {
   return (
     <div>
       {lista.map((product) => (
@@ -12,4 +12,4 @@ const ItemList = ({ lista }) => {
   );
 };
 
-export default ItemList;
+export default ItemDetail;
