@@ -1,6 +1,7 @@
 import data from "../mockdata";
 import { useEffect, useState } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
+// import Counter from './components/Counter/Counter';
 
 const ItemDetailContainer = () => {
   const [productList, setProductList] = useState([]);
@@ -21,6 +22,7 @@ const ItemDetailContainer = () => {
   return (
     <>
       <ItemDetail lista={productList}/>
+      {/* <Counter onClick={stock} sumar={sumar} restar={restar} items={items}/> */}
     </>
   );
 };

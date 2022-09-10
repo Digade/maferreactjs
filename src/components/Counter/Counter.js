@@ -5,15 +5,26 @@ const Counter = (props) => {
   //let o var no se renderiza en el dom
   //usestate queda la data en la app
  
-  const stock = 10;
-  const [items, setItems] = useState(10);
-
-  const sumar = () => items <= stock -1 ? setItems(items + 1) : alert('Se alcanzo el máximo')
-  const restar = () => items > 0 ? setItems(items - 1) : alert('No hay valores negativos')
+  const [stock, setStock] = useState(10);
+  const [items, setItems] = useState(0);
+  
+  
+  const sumar = () => {
+    if (stock > 0){
+      setItems(items + 1)
+      setStock(stock-1)
+    }
+  }
+  const restar = () => {
+    if (items > 0) {
+      setItems(items - 1)
+      setStock(stock + 1)
+    }
+  }
 
     return (
       <>
-      <div>Tengo {items} items / Counter</div>
+      <div>Tengo {items} items</div>
       <div>Stock {stock}</div>
       <button onClick={sumar}>Sumar</button>
       <button onClick={restar}>Restar</button>

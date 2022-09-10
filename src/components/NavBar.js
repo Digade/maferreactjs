@@ -34,7 +34,7 @@ const NavBar = (props) => {
                 
                 </ul>
         
-                <div>
+                
                     <img
                       src={carro}
                       alt="Logo Mafer Electronics"
@@ -42,9 +42,9 @@ const NavBar = (props) => {
                         height: "30px",
                         paddingRight: "30px",
                       }}
-                    />{" "}
+                    />
                     <p>Carrito: {props.items}</p>
-                </div>
+                
             </div>
       
               
